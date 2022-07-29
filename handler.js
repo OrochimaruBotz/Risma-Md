@@ -34,7 +34,7 @@ module.exports = {
         global.wm2 = global.data.namabot + ' ' + global.data.owner
         global.wm = '© YamatoBot'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = '𝐀𝐥𝐩𝐢 𝑩𝒐𝒕'
+        global.colong2 = 'Yamato'
         global.kontak2 = [
         ['6288804947282', 'Yamato', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true],
         ['6288804947282', await this.getName('6288804947282@s.whatsapp.net'), '𝑷𝒂𝒓𝒕𝒏𝒆𝒓 𝐀𝐥𝐩𝐢 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true], 
