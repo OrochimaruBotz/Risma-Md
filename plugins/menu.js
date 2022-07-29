@@ -33,8 +33,6 @@ const defaultMenu = {
   body: '┆⬡ %cmd %islimit %isPremium',
   footer: '┗━───────⬣\n',
   after: `
-*%YamatoBot@^%version*
-${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -195,7 +193,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       let judul = `${global.ucapan}, ${name}`.trim()
       const sections = [
       {
-        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 YamatoBot',
+        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 YamatoBot-MD',
         rows: [
           { title: 'allmenu', rowId: `${_p}? all` },
           { title: 'game', rowId: `${_p}? game` },
@@ -227,7 +225,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       footer: wm,
       mentions: await conn.parseMention(judul),
       title: '',
-      buttonText: "Klik Disini",
+      buttonText: "Klik Untuk melihat Menu",
       sections
     }
     return conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(judul), contextInfo: { forwardingScore: 99999, isForwarded: true }})
