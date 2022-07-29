@@ -35,7 +35,7 @@ const defaultMenu = {
   body: '┆⬡ %cmd %islimit %isPremium',
   footer: '┗━───────⬣\n',
   after: `
-*%JarotOffc@^%version*
+*%YamatoBot@^%version*
 ${'```%npmdesc```'}
 `,
 }
@@ -197,11 +197,9 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       let judul = `${global.ucapan}, ${name}`.trim()
       const sections = [
       {
-        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 𝐀𝐥𝐩𝐢 𝐛𝐨𝐭',
+        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 YamatoBot',
         rows: [
           { title: 'allmenu', rowId: `${_p}? all` },
-          { title: 'info alpi', rowId: `${_p}? infonadia` },
-          { title: 'info jarot', rowId: `${_p}? infomursid` },
           { title: 'game', rowId: `${_p}? game` },
           { title: 'xp', rowId: `${_p}? xp` },
           { title: 'stiker', rowId: `${_p}? stiker` },
@@ -295,14 +293,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 handler.help = ['menu', 'help', '?']
 handler.tags = ['main']
 handler.command = /^(m(enu)?|help|\?)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
+handler.owner = true
+handler.mods = true
+handler.premium = true
+handler.group = true
+handler.private = true
 
-handler.admin = false
-handler.botAdmin = false
+handler.admin = true
+handler.botAdmin = true
 
 handler.fail = null
 handler.exp = 3
