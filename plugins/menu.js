@@ -190,7 +190,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       }
     })
     if (teks == '404') {
-      let judul = `Haii Kak ${name} Klick Button Di Bawah Untuk Melihat Menu YamatoBot`.trim()
+      let judul = `Haii Kak ${name} Klick Button Di Bawah Untuk Melihat ListMenu YamatoBot`.trim()
       const sections = [
       {
         title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 YamatoBot',
