@@ -212,7 +212,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           { title: 'Database', rowId: `${_p}? database` },
           { title: 'Vote & Absen', rowId: `${_p}? vote` },
           { title: 'Al-Qur\'an", rowId: `${_p}? quran` },
-          { title: 'Pengubah Suara', rowId: `${_p}? audio` },
+          { title: 'PengubahSuara', rowId: `${_p}? audio` },
           { title: 'Jadibot', rowId: `${_p}? jadibot` },
           { title: 'Info', rowId: `${_p}? info` },
           { title: 'Owner', rowId: `${_p}? owner` },
