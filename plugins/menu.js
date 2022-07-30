@@ -213,7 +213,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
           { title: 'Menu Vote & Absen', rowId: `${_p}? vote` },
           { title: 'Menu Al-Qur\'an", rowId: `${_p}? quran` },
           { title: 'Menu Pengubah Suara', rowId: `${_p}? audio` },
-          { title: 'Menu Jadibot',,'Eror', rowId: `${_p}? jadibot` },
+          { title: 'Menu Jadibot', rowId: `${_p}? jadibot` },
           { title: 'Menu Info', rowId: `${_p}? info` },
           { title: 'Menu Owner', rowId: `${_p}? owner` },
           { title: 'Tanks Too', rowId: `${_p}? tqto` },
