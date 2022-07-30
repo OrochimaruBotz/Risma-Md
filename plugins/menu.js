@@ -190,33 +190,33 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       }
     })
     if (teks == '404') {
-      let judul = `${global.ucapan}, ${name}`.trim()
+      let judul = `Haii Kak ${name} Klick Button Di Bawah Untuk Melihat Menu YamatoBot`.trim()
       const sections = [
       {
-        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 YamatoBot-MD',
+        title: '𝐥𝐢𝐬𝐭 𝐦𝐞𝐧𝐮 YamatoBot',
         rows: [
-          { title: 'allmenu', rowId: `${_p}? all` },
-          { title: 'game', rowId: `${_p}? game` },
-          { title: 'xp', rowId: `${_p}? xp` },
-          { title: 'stiker', rowId: `${_p}? stiker` },
-          { title: 'kerang ajaib', rowId: `${_p}? kerangajaib` },
-          { title: 'quotes', rowId: `${_p}? quotes` },
-          { title: 'grup', rowId: `${_p}? grup` },
-          { title: 'premium', rowId: `${_p}? premium` },
-          { title: 'internet', rowId: `${_p}? internet` },
-          { title: 'anonymous', rowId: `${_p}? anonymous` },
-          { title: 'nulis & Logo', rowId: `${_p}? nulis` },
-          { title: 'downloader', rowId: `${_p}? downloader` },
-          { title: 'tools', rowId: `${_p}? tools` },
-          { title: 'fun', rowId: `${_p}? fun`},
-          { title: 'database', rowId: `${_p}? database` },
-          { title: 'vote & Absen', rowId: `${_p}? vote` },
-          { title: "Al-Qur\'an", rowId: `${_p}? quran` },
-          { title: 'pengubah suara', rowId: `${_p}? audio` },
-          { title: 'jadi bot', rowId: `${_p}? jadibot` },
-          { title: 'info', rowId: `${_p}? info` },
-          { title: 'tanpa kategori', rowId: `${_p}? tanpakategori` },
-          { title: 'owner', rowId: `${_p}? owner` },
+          { title: 'Allmenu', rowId: `${_p}? all` },
+          { title: 'Menu Game', rowId: `${_p}? game` },
+          { title: 'Menu Xp', rowId: `${_p}? xp` },
+          { title: 'Menu Sticker', rowId: `${_p}? stiker` },
+          { title: 'Menu Kerang Ajaib', rowId: `${_p}? kerangajaib` },
+          { title: 'Menu Quotes', rowId: `${_p}? quotes` },
+          { title: 'Menu Group', rowId: `${_p}? grup` },
+          { title: 'Menu Premium', rowId: `${_p}? premium` },
+          { title: 'Menu Internet', rowId: `${_p}? internet` },
+          { title: 'Menu Anonymous', rowId: `${_p}? anonymous` },
+          { title: 'Menu Nulis & Logo', rowId: `${_p}? nulis` },
+          { title: 'Menu Downloader', rowId: `${_p}? downloader` },
+          { title: 'Menu Tools', rowId: `${_p}? tools` },
+          { title: 'Menu Fun', rowId: `${_p}? fun`},
+          { title: 'Menu Database', rowId: `${_p}? database` },
+          { title: 'Menu Vote & Absen', rowId: `${_p}? vote` },
+          { title: 'Menu Al-Qur\'an", rowId: `${_p}? quran` },
+          { title: 'Menu Pengubah Suara', rowId: `${_p}? audio` },
+          { title: 'Menu Jadibot',,'Eror', rowId: `${_p}? jadibot` },
+          { title: 'Menu Info', rowId: `${_p}? info` },
+          { title: 'Menu Owner', rowId: `${_p}? owner` },
+          { title: 'Tanks Too', rowId: `${_p}? tqto` },
         ]
       }
     ]
