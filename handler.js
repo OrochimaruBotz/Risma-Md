@@ -27,17 +27,16 @@ module.exports = {
         global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"])
         global.img = pickRandom(global.waifu)
         global.fla = pickRandom(global.flaaa)
-        global.namabot = conn.user.name
+        global.namabot = 'GojoBotzMD'
         global.packname = global.namabot
-        global.author = global.data.owner
+        global.author = 'humanz'
         //global.author = 'Yamato'
-        global.wm2 = global.data.namabot + ' ' + global.data.owner
+        global.wm2 = global.data.namabot + ' ' + 'By humanz
         global.wm = '© YamatoBot'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = 'Yamato'
+        global.colong2 = 'Humanz'
         global.kontak2 = [
-        ['6288804947282', 'Yamato', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true],
-        ['6288804947282', await this.getName('6288804947282@s.whatsapp.net'), '𝑷𝒂𝒓𝒕𝒏𝒆𝒓 𝐀𝐥𝐩𝐢 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true], 
+        ['6288804947282', 'Yamato', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'httPS://github.com/OrochimaruBotz', true],
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -329,7 +328,7 @@ module.exports = {
                     if (!'backup' in settings) settings.backup = false
                     if (!isNumber(settings.backupDB)) settings.backupDB = 0
                     if (!'groupOnly' in settings) settings.groupOnly = false
-                    if (!'jadibot' in settings) settings.jadibot = false
+                    if (!'jadibot' in settings) settings.jadibot = true
                     if (!isNumber(settings.status)) settings.status = 0
                     if (!'epe' in settings) settings.epe = true
                     if (!'game' in settings) settings.game = true
