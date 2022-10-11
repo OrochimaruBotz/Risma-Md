@@ -31,12 +31,12 @@ module.exports = {
         global.packname = global.namabot
         global.author = 'humanz'
         //global.author = 'Yamato'
-        global.wm2 = global.data.namabot + ' ' + 'By humanz
+        global.wm2 = global.data.namabot + ' ' + 'By humanz'
         global.wm = '© YamatoBot'
         global.colong1 = 'Ciss 📸'
         global.colong2 = 'Humanz'
         global.kontak2 = [
-        ['6288804947282', 'Yamato', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'httPS://github.com/OrochimaruBotz', true],
+        ['6288804947282', 'Yamato', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://github.com/OrochimaruBotz', true],
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
