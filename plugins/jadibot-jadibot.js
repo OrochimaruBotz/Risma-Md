@@ -6,7 +6,7 @@ else global.conns = []
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
   let parent = args[0] && args[0] == 'plz' ? conn : global.conn
-  let auth = false
+  let auth = true
   if ((args[0] && args[0] == 'plz') || global.conn.user.jid == conn.user.jid) {
     let id = global.conns.length
     let conn = new global.conn.constructor()
